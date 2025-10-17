@@ -1,0 +1,43 @@
+name: ble_demo
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.36.6
+  permission_handler: ^12.0.1
+  
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.6
+  flutter_lints: ^6.0.0
+
+# flutter_native_splash config block (outside dependencies!)
+flutter_native_splash:
+  android: true
+  ios: true
+  color: "#FFFFFF"
+  android_12:
+    color: "#FFFFFF"
+    
+
+# flutter_launcher_icons config block (outside dependencies!)
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+
+flutter:
+  uses-material-design: true
+  # Add any assets here
+  # assets:
+  #   - assets/logo.png
